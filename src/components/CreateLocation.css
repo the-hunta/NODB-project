@@ -18,6 +18,8 @@
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     cursor: pointer;
+    box-shadow: 3px 3px rgba(7, 7, 7, 0.533);
+    border-radius: 8px,
 
 
 }

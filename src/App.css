@@ -8,4 +8,16 @@
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
+.div2{
+  border-Bottom: 3px solid black;
+  /* height: 8vh; */
+  font-Size:40px;
+  padding:20px;
+  background-image: url(https://images.pexels.com/photos/991012/pexels-photo-991012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+
+
+}
 

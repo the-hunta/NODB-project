@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='background'>
       <div className="App">
-        <div style={{borderBottom:'3px solid black', height:'8vh', fontSize:'40px', padding:'20px',  background:'white'}}>My Travel Wish List!</div>
+        <div className='div2'>My Travel Wish List!</div>
       <Dash/>
       <footer style={{height:'70px', width:'100vw', border:'3px solid black', padding:'30px', fontSize:'40px', marginLeft:"-30px"}}> Happy Travels! </footer>
       
