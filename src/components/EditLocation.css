@@ -1,0 +1,7 @@
+.div{
+    border: 1px solid black;
+    margin: 20;
+    display: flex;
+    flex-Direction: column;
+    cursor: pointer;
+}

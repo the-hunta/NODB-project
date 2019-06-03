@@ -1,0 +1,35 @@
+.DashCont{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mustSeeCont{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mightSeeCont{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header_might{
+    color: white;
+    margin-top: 100px; 
+    margin-bottom: 5px;
+    padding: 0px;
+
+}
+
+.header_must{
+    color:white;
+    margin-top: 25px; 
+    margin-bottom: 5px;
+
+}

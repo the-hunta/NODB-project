@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Dash from './components/Dash'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='background'>
+      <div className="App">
+        <div style={{borderBottom:'3px solid black', height:'8vh', fontSize:'40px', padding:'20px',  background:'white'}}>My Travel Wish List!</div>
+      <Dash/>
+      <footer style={{height:'70px', width:'100vw', border:'3px solid black', padding:'30px', fontSize:'40px', marginLeft:"-30px"}}> Happy Travels! </footer>
+      
+      </div>
     </div>
   );
 }
